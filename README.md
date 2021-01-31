@@ -10,6 +10,14 @@ This document will serve as a study review guide. The description of the steps u
 
 The story is fictional and was created only to contextualize the analysis.
 
+## 1.0. The Business Problem
+
+The Rossmann business team identified a demand for reforms at regional branches. To anticipate this gut, the company's CFO contacted each branch manager asking for a forecast of daily sales for the next six weeks.
+
+The managers of each branch contacted the Data Science team to make this forecast. When investigating the business problem in depth, some essential points for the production of any solution were identified:
+
+	**Teste**
+
 <h4 align="center"> 
 	🚧  Under construction  🚧
 </h4>
