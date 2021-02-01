@@ -16,7 +16,26 @@ The Rossmann business team identified a demand for reforms at regional branches.
 
 The managers of each branch contacted the Data Science team to make this forecast. When investigating the business problem in depth, some essential points for the production of any solution were identified:
 
-	**Teste**
+* **Motivation**: A demand from the CFO to know the sales forecast for the next six weeks;
+
+* **Root Cause**: The CFO need the sales forecast for the next six week to antecipate fund to invest in the store reforms;
+
+* **Stakeholder**: The CFO;
+
+* **Solution Format**:
+
+    * **Granularity**: For day for store;
+    
+    * **Type of problem**: A Demand forecast;
+
+   
+   
+   
+   
+   
+   
+   
+   
 
 <h4 align="center"> 
 	🚧  Under construction  🚧
