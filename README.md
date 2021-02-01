@@ -24,10 +24,11 @@ The managers of each branch contacted the Data Science team to make this forecas
 
 * **Solution Format**:
 
-    * **Granularity**: For day for store;
+     * **Granularity**: For day for store;
     
-    * **Type of problem**: A Demand forecast;
+     * **Type of problem**: A Demand forecast.
 
+With the business context in mind, we can get de data and work.
    
    
    
