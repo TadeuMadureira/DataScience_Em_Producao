@@ -26,10 +26,16 @@ The managers of each branch contacted the Data Science team to make this forecas
 
      * **Granularity**: For day for store;
     
-     * **Type of problem**: A Demand forecast.
+     * **Type of problem**: A Demand forecast;
+     
+     * **Solution**: Regression;
+     
+     * **Delivery method:** Telegram Bot.
 
 With the business context in mind, we can get de data and work.
-   
+
+
+## 2.0. Data Description
    
    
    
