@@ -34,8 +34,31 @@ The managers of each branch contacted the Data Science team to make this forecas
 
 With the business context in mind, we can get de data and work.
 
+## 2.0 Business assumption
 
-## 2.0. Data Description
+
+## 3.0 Solution strategy
+
+
+## 4.0 Top 3 data insights
+
+
+## 5.0 Machine Learning Model Applied
+
+
+## 6.0 Machine Learning Performance
+
+
+## 7.0 Business Results
+
+
+## 8.0 Conclusions
+
+
+## 9.0 Lessons Learned
+
+
+## 10.0 Next Steps
    
    
    
