@@ -51,7 +51,7 @@ The final format will be a Telgram Bot, which the CFO will be able to access in 
 
 Common sense would lead us to imagine that the distance between competitors could have a certain impact on store sales, where stores that are competing for the same audience would divide the customers from that location. The real impact of this variable can be seen in the following graphs:
 
-!['H2'](file:///home/tcbm/projs/h2_img.png![image](https://user-images.githubusercontent.com/73614098/110251310-4c5cd780-7f56-11eb-9330-e0e1f831b4a9.png)
+!['H2'](https://user-images.githubusercontent.com/73614098/110251310-4c5cd780-7f56-11eb-9330-e0e1f831b4a9.png)
 
 The first graph allows us to have a macro view of the problem. It is possible to understand how the number of sales of each store is concentrated in relation to the other stores, and it is possible to perceive that, despite some outliers present, the vast majority of stores, regardless of the distance between them, concentrate the same number of sales.
 
@@ -60,8 +60,15 @@ The second graph is an analysis with limited intervals, showing only the distanc
 The probable justification for this fact is that competition between short distance stores leads to a greater allocation of resources to attract customers, that is: a competition that improves the market. However, this is a hypothesis that must be confirmed in future analysis.
 
 
-### Stores with competitors for longer should sell more. - FALSE
+### Stores with more consecutive promotions should sell more. - FALSE
 
+Consecutive promotions seem to be really impactful to increase sales, the greater the amount of promotions a store has in time, the greater its sales should be, correct? But the analysis of the graph leads us to another interpretation:
+
+!['image'](https://user-images.githubusercontent.com/73614098/110251714-33552600-7f58-11eb-8330-1a30007408c7.png)
+
+The interpretation of the graph is clear: According to the data provided to us, stores with extended promotions, on average, sell less than stores with traditional promotions every week of the year. The sales pattern is the same for every week, and both promotions follow the trends, however the extended promotion is always with a lower average than the traditional one.
+
+To understand the reason for this, the project must be extended to an analysis of the cause of this fact.
 
 
 ### Stores with more consecutive promotions should sell more. - FALSE
