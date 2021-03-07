@@ -43,17 +43,15 @@ The final format will be a Telgram Bot, which the CFO will be able to access in 
      
 * **Delivery method:** Telegram Bot.
 
-!['H2'](https://raw.githubusercontent.com/tadeucbm/DataScience_Em_Producao/main/img/WhatsApp%20Video%202021-03-07%20at%2014.35.27.gif)
-
 ---
 ## 3.0 Insights
 
----
+
 ### Stores with closer competitors should sell less - FALSE
 
 Common sense would lead us to imagine that the distance between competitors could have a certain impact on store sales, where stores that are competing for the same audience would divide the customers from that location. The real impact of this variable can be seen in the following graphs:
 
-!['H2'](https://user-images.githubusercontent.com/73614098/110234644-f6f6db00-7f01-11eb-9aef-288a844f57e0.png)
+!['H2'](file:///home/tcbm/projs/h2_img.png![image](https://user-images.githubusercontent.com/73614098/110251310-4c5cd780-7f56-11eb-9330-e0e1f831b4a9.png)
 
 The first graph allows us to have a macro view of the problem. It is possible to understand how the number of sales of each store is concentrated in relation to the other stores, and it is possible to perceive that, despite some outliers present, the vast majority of stores, regardless of the distance between them, concentrate the same number of sales.
 
@@ -61,6 +59,12 @@ The second graph is an analysis with limited intervals, showing only the distanc
 
 The probable justification for this fact is that competition between short distance stores leads to a greater allocation of resources to attract customers, that is: a competition that improves the market. However, this is a hypothesis that must be confirmed in future analysis.
 
+
+### Stores with competitors for longer should sell more. - FALSE
+
+
+
+### Stores with more consecutive promotions should sell more. - FALSE
 
 
 ---
@@ -74,6 +78,8 @@ The probable justification for this fact is that competition between short dista
 
 
 ## 8.0 Conclusions
+
+!['H2'](https://raw.githubusercontent.com/tadeucbm/DataScience_Em_Producao/main/img/WhatsApp%20Video%202021-03-07%20at%2014.35.27.gif)
 
 
 ## 9.0 Lessons Learned
