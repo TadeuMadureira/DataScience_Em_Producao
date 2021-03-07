@@ -2,6 +2,8 @@
 
 ![Rossmann](https://upload.wikimedia.org/wikipedia/commons/9/95/Rossmann_Schriftzug_mit_Centaur.jpg)
 
+
+---
 ## Introduction
 
 This is a study project done in the course "Data Science Em Produção", of the Data Scientist Meigarom Lopes. The purpose of the project was to cover all the steps of a data science project, from the business knowledge to deploy, using techniques of data engineering, exploratory data analysis and machine learning.
@@ -12,6 +14,8 @@ This document will serve as a study review guide. The description of the steps u
 
 The story is fictional and was created only to contextualize the analysis.
 
+
+---
 ## 1.0. The Business Problem
 
 The Rossmann business team identified a demand for reforms at regional branches. To anticipate this gut, the company's CFO contacted each branch manager asking for a forecast of daily sales for the next six weeks.
@@ -24,6 +28,7 @@ The managers of each branch contacted the Data Science team to make this forecas
 
 * **Stakeholder**: The CFO;
 
+---
 ## 2.0 Solution strategy
 
 The solution format will be a sales forecast for each store for the next six weeks, and Machine Learning techniques focused on Regression should be used to make this demand forecast possible. A daily granularity per store will also be assumed for the forecast, that is, our input data will be the daily sales of the stores.
@@ -38,8 +43,10 @@ The final format will be a Telgram Bot, which the CFO will be able to access in 
      
 * **Delivery method:** Telegram Bot.
 
+---
 ## 3.0 Insights
 
+---
 ### Stores with closer competitors should sell less - FALSE
 
 Common sense would lead us to imagine that the distance between competitors could have a certain impact on store sales, where stores that are competing for the same audience would divide the customers from that location. The real impact of this variable can be seen in the following graphs:
@@ -54,6 +61,7 @@ The probable justification for this fact is that competition between short dista
 
 
 
+---
 ## 5.0 Machine Learning Model Applied
 
 
