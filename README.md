@@ -38,7 +38,20 @@ The final format will be a Telgram Bot, which the CFO will be able to access in 
      
 * **Delivery method:** Telegram Bot.
 
-## 3.0 Top 3 data insights
+## 3.0 Insights
+
+### Stores with closer competitors should sell less - FALSE
+
+Common sense would lead us to imagine that the distance between competitors could have a certain impact on store sales, where stores that are competing for the same audience would divide the customers from that location. The real impact of this variable can be seen in the following graphs:
+
+!['H2'](https://user-images.githubusercontent.com/73614098/110234644-f6f6db00-7f01-11eb-9aef-288a844f57e0.png)
+
+The first graph allows us to have a macro view of the problem. It is possible to understand how the number of sales of each store is concentrated in relation to the other stores, and it is possible to perceive that, despite some outliers present, the vast majority of stores, regardless of the distance between them, concentrate the same number of sales.
+
+The second graph is an analysis with limited intervals, showing only the distances that occur frequently. Despite a slight increase in sales in the range between 20,000 and 25,000 (which is probably the result of fewer occurrences of these distances in the data), sales maintain the same average pattern across all distance ranges.
+
+The probable justification for this fact is that competition between short distance stores leads to a greater allocation of resources to attract customers, that is: a competition that improves the market. However, this is a hypothesis that must be confirmed in future analysis.
+
 
 
 ## 5.0 Machine Learning Model Applied
