@@ -1,5 +1,7 @@
 # Rossman - A Machine Learning Solution for Sales Forecasting
 
+![Rossmann](https://upload.wikimedia.org/wikipedia/commons/9/95/Rossmann_Schriftzug_mit_Centaur.jpg)
+
 ## Introduction
 
 This is a study project done in the course "Data Science Em Produção", of the Data Scientist Meigarom Lopes. The purpose of the project was to cover all the steps of a data science project, from the business knowledge to deploy, using techniques of data engineering, exploratory data analysis and machine learning.
@@ -22,25 +24,21 @@ The managers of each branch contacted the Data Science team to make this forecas
 
 * **Stakeholder**: The CFO;
 
-* **Solution Format**:
+## 2.0 Solution strategy
 
-     * **Granularity**: For day for store;
+The solution format will be a sales forecast for each store for the next six weeks, and Machine Learning techniques focused on Regression should be used to make this demand forecast possible. A daily granularity per store will also be assumed for the forecast, that is, our input data will be the daily sales of the stores.
+
+The final format will be a Telgram Bot, which the CFO will be able to access in real time the demand forecast to the next six weeks of any store anywhere, depending only on an internet connection and an account in the Telegram application.
+
+* **Granularity**: For day for store;
     
-     * **Type of problem**: A Demand forecast;
+* **Type of problem**: A Demand forecast;
      
-     * **Solution**: Regression;
+* **Solution**: Regression;
      
-     * **Delivery method:** Telegram Bot.
+* **Delivery method:** Telegram Bot.
 
-With the business context in mind, we can get de data and work.
-
-## 2.0 Business assumption
-
-
-## 3.0 Solution strategy
-
-
-## 4.0 Top 3 data insights
+## 3.0 Top 3 data insights
 
 
 ## 5.0 Machine Learning Model Applied
