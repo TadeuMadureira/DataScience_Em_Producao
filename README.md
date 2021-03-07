@@ -43,6 +43,8 @@ The final format will be a Telgram Bot, which the CFO will be able to access in 
      
 * **Delivery method:** Telegram Bot.
 
+!['H2'](https://raw.githubusercontent.com/tadeucbm/DataScience_Em_Producao/main/img/WhatsApp%20Video%202021-03-07%20at%2014.35.27.gif)
+
 ---
 ## 3.0 Insights
 
