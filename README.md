@@ -71,28 +71,44 @@ The interpretation of the graph is clear: According to the data provided to us, 
 To understand the reason for this, the project must be extended to an analysis of the cause of this fact.
 
 
-### Stores with more consecutive promotions should sell more. - FALSE
+### Stores should sell more after the 10th of each month. - FALSE
 
+When creating hypotheses, it was thought about the possibility of stores selling more after the 10th, as it is the moment that most people receive their share of the monthly income and can spend on products. However, this was not the trend:
+
+!['image'](https://user-images.githubusercontent.com/73614098/110556686-698bd480-8115-11eb-8c8b-bf5424d67efe.png)
+
+As can be seen in the graphs, there is a clear downward trend in the average sales after the 10th day. However, at the end of the month it is possible to see a recovery in these sales. However, as a final analysis, it is possible to abstract this trend of higher sales volume in the first days of the month.
 
 ---
-## 5.0 Machine Learning Model Applied
+## 4.0 Machine Learning Model Applied
+
+O problema de previsão de vendas na granularidade recebida é de regressão, foram usados alguns pacotes especializados nesse tipo de problema: *Random Forest Regressor*, *Linear Regression*, *XGBoost Regressor*, além de um modelo base utilizando a média de vendas.
+
+Além disso, as métricas utilizadas para medir a performance foram o *MAE - Mean Average Error*, *MAPE - Mean Avareage Percentage Error*, *RMSE - Root Mean Squared Error*:
+
+![image](https://user-images.githubusercontent.com/73614098/110557438-fa16e480-8116-11eb-8618-ea28585174b9.png)
 
 
-## 6.0 Machine Learning Performance
+
+![image](https://user-images.githubusercontent.com/73614098/110557469-0438e300-8117-11eb-853d-3826865666c8.png)
 
 
-## 7.0 Business Results
+
+## 5.0 Machine Learning Performance
 
 
-## 8.0 Conclusions
+## 6.0 Business Results
+
+
+## 7.0 Conclusions
 
 !['H2'](https://raw.githubusercontent.com/tadeucbm/DataScience_Em_Producao/main/img/WhatsApp%20Video%202021-03-07%20at%2014.35.27.gif)
 
 
-## 9.0 Lessons Learned
+## 8.0 Lessons Learned
 
 
-## 10.0 Next Steps
+## 9.0 Next Steps
    
    
    
