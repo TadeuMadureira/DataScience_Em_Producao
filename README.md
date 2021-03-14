@@ -111,13 +111,24 @@ It is possible to see that our forecasting model closely follows the sales trend
 
 ## 6.0 Business Results
 
+The best way to translate the results achieved for the CFO is through the demonstration of possible scenarios, in this way the CFO will be able to weigh the possibilities and make the decision in relation to the anticipation of the investment for the stores:
+
+<img src="https://user-images.githubusercontent.com/73614098/111063953-d392d980-8487-11eb-964b-394984c8d0b0.png" alt="Your image title" width="250"/>
+
+It is also possible to view individual stores. As you can see, each store has its own errors, some stores with major errors and others with minor errors. Those stores where the MAE is lower, it is possible to be more certain of the necessary due and thus make a safe decision in relation to the investment. For stores with high MAE, greater care should be taken. As a measure for the next cycle, it is interesting to have access to new sales data from these stores, to try some more improvements in the models, in addition to testing other regressors.
+
+<img src="https://user-images.githubusercontent.com/73614098/111063932-ad6d3980-8487-11eb-9595-a29119165119.png" alt="Your image title" width="500"/>
+
+All information regarding each store is available through an API on Heroku. As a final delivery proposal, a Bot was created on the telegram so that the CFO can, just by typing the code of the store of interest, have access to the average sales forecast for the next six weeks of that unit. In this way, decision making can be quick and easy to access.
+
+!['H2'](https://raw.githubusercontent.com/tadeucbm/DataScience_Em_Producao/main/img/WhatsApp%20Video%202021-03-07%20at%2014.35.27.gif)
 
 
 ## 7.0 Conclusions
 
 
 
-!['H2'](https://raw.githubusercontent.com/tadeucbm/DataScience_Em_Producao/main/img/WhatsApp%20Video%202021-03-07%20at%2014.35.27.gif)
+
 
 
 ## 8.0 Lessons Learned
