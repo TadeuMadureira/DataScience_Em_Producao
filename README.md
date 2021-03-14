@@ -3,6 +3,7 @@
 ![Rossmann](https://upload.wikimedia.org/wikipedia/commons/9/95/Rossmann_Schriftzug_mit_Centaur.jpg)
 
 
+
 ---
 ## Introduction
 
@@ -13,6 +14,7 @@ The main idea was not only use the data and apply advanced techiniques to it, bu
 This document will serve as a study review guide. The description of the steps used in the project are included in the next session. 
 
 The story is fictional and was created only to contextualize the analysis.
+
 
 
 ---
@@ -28,6 +30,9 @@ The managers of each branch contacted the Data Science team to make this forecas
 
 * **Stakeholder**: The CFO;
 
+
+
+
 ---
 ## 2.0 Solution strategy
 
@@ -42,6 +47,9 @@ The final format will be a Telgram Bot, which the CFO will be able to access in 
 * **Solution**: Regression;
      
 * **Delivery method:** Telegram Bot.
+
+
+
 
 ---
 ## 3.0 Insights
@@ -79,6 +87,9 @@ When creating hypotheses, it was thought about the possibility of stores selling
 
 As can be seen in the graphs, there is a clear downward trend in the average sales after the 10th day. However, at the end of the month it is possible to see a recovery in these sales. However, as a final analysis, it is possible to abstract this trend of higher sales volume in the first days of the month.
 
+
+
+
 ---
 ## 4.0 Machine Learning Model Applied
 
@@ -96,6 +107,9 @@ With Cross-Validation:
 
 For testing purposes, XGboostRegressor will be used. Despite the high error in corss-validation, it is expected that it will gain performance in the tunning stage.
 
+
+
+---
 ## 5.0 Machine Learning Performance
 
 Using the XGBoostClassifier and tuning the hyperparameters, the following errors were achieved:
@@ -109,6 +123,8 @@ Considering MAE (Mean Average Error), as the average error in currency of our mo
 It is possible to see that our forecasting model closely follows the sales trend by period.
 
 
+
+---
 ## 6.0 Business Results
 
 The best way to translate the results achieved for the CFO is through the demonstration of possible scenarios, in this way the CFO will be able to weigh the possibilities and make the decision in relation to the anticipation of the investment for the stores:
@@ -124,6 +140,9 @@ All information regarding each store is available through an API on Heroku. As a
 !['H2'](https://raw.githubusercontent.com/tadeucbm/DataScience_Em_Producao/main/img/WhatsApp%20Video%202021-03-07%20at%2014.35.27.gif)
 
 
+
+
+---
 ## 7.0 Conclusions
 
 
