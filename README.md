@@ -88,7 +88,7 @@ In addition, the metrics used to measure performance were * MAE - Mean Average E
 
 Without Cross-Validation:
 
-<img src="https://user-images.githubusercontent.com/73614098/110557438-fa16e480-8116-11eb-8618-ea28585174b9.png" alt="Your image title" width="500"/>
+<img src="https://user-images.githubusercontent.com/73614098/111063742-d3dea500-8486-11eb-98e7-9d4093e571cd.png" alt="Your image title" width="400"/>
 
 With Cross-Validation:
 
@@ -98,11 +98,24 @@ For testing purposes, XGboostRegressor will be used. Despite the high error in c
 
 ## 5.0 Machine Learning Performance
 
+Using the XGBoostClassifier and tuning the hyperparameters, the following errors were achieved:
+
+<img src="https://user-images.githubusercontent.com/73614098/111063453-e7890c00-8484-11eb-91cb-7d6c5b433d90.png" alt="Your image title" width="400"/>
+
+Considering MAE (Mean Average Error), as the average error in currency of our model, we can understand that our model errs on average in the amount of $ 769.41 plus or minus. Comparing to the base model, which is the average model, we reduced this average error by approximately $ 585.4.
+
+<img src="https://user-images.githubusercontent.com/73614098/111063638-34211700-8486-11eb-9126-e4ffa9da93d8.png" alt="Your image title" width="700"/>
+
+It is possible to see that our forecasting model closely follows the sales trend by period.
+
 
 ## 6.0 Business Results
 
 
+
 ## 7.0 Conclusions
+
+
 
 !['H2'](https://raw.githubusercontent.com/tadeucbm/DataScience_Em_Producao/main/img/WhatsApp%20Video%202021-03-07%20at%2014.35.27.gif)
 
