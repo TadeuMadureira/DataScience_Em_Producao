@@ -131,7 +131,9 @@ The best way to translate the results achieved for the CFO is through the demons
 
 <img src="https://user-images.githubusercontent.com/73614098/111063953-d392d980-8487-11eb-964b-394984c8d0b0.png" alt="Your image title" width="250"/>
 
-It is also possible to view individual stores. As you can see, each store has its own errors, some stores with major errors and others with minor errors. Those stores where the MAE is lower, it is possible to be more certain of the necessary due and thus make a safe decision in relation to the investment. For stores with high MAE, greater care should be taken. As a measure for the next cycle, it is interesting to have access to new sales data from these stores, to try some more improvements in the models, in addition to testing other regressors.
+It is also possible to view individual stores. As you can see, each store has its own errors, some stores with major errors and others with minor errors. Those stores where the MAE is lower, it is possible to be more certain of the necessary due and thus make a safe decision in relation to the investment. For stores with high MAE, greater care should be taken.
+
+As a next steps, it is interesting to have access to new sales data from these stores, to try some more improvements in the models, in addition to testing other regressors.
 
 <img src="https://user-images.githubusercontent.com/73614098/111063932-ad6d3980-8487-11eb-9595-a29119165119.png" alt="Your image title" width="500"/>
 
