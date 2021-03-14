@@ -82,17 +82,19 @@ As can be seen in the graphs, there is a clear downward trend in the average sal
 ---
 ## 4.0 Machine Learning Model Applied
 
-O problema de previsão de vendas na granularidade recebida é de regressão, foram usados alguns pacotes especializados nesse tipo de problema: *Random Forest Regressor*, *Linear Regression*, *XGBoost Regressor*, além de um modelo base utilizando a média de vendas.
+The sales forecast problem in the received granularity is regression, there were some special packages in this type of problem: * Random Forest Regressor *, * Linear Regressor *, * XGBoost Regressor *, in addition to a base model using the average sales
 
-Além disso, as métricas utilizadas para medir a performance foram o *MAE - Mean Average Error*, *MAPE - Mean Avareage Percentage Error*, *RMSE - Root Mean Squared Error*:
+In addition, the metrics used to measure performance were * MAE - Mean Average Error *, * MAPE - Mean Avareage Percentage Error *, * RMSE - Root Mean Squared Error *:
 
-![image](https://user-images.githubusercontent.com/73614098/110557438-fa16e480-8116-11eb-8618-ea28585174b9.png)
+Without Cross-Validation:
 
+<img src="https://user-images.githubusercontent.com/73614098/110557438-fa16e480-8116-11eb-8618-ea28585174b9.png" alt="Your image title" width="500"/>
 
+With Cross-Validation:
 
-![image](https://user-images.githubusercontent.com/73614098/110557469-0438e300-8117-11eb-853d-3826865666c8.png)
+<img src="https://user-images.githubusercontent.com/73614098/110557469-0438e300-8117-11eb-853d-3826865666c8.png" alt="Your image title" width="500"/>
 
-
+For testing purposes, XGboostRegressor will be used. Despite the high error in corss-validation, it is expected that it will gain performance in the tunning stage.
 
 ## 5.0 Machine Learning Performance
 
