@@ -38,7 +38,7 @@ The managers of each branch contacted the Data Science team to make this forecas
 
 The solution format will be a sales forecast for each store for the next six weeks, and Machine Learning techniques focused on Regression should be used to make this demand forecast possible. A daily granularity per store will also be assumed for the forecast, that is, our input data will be the daily sales of the stores.
 
-The final format will be a Telgram Bot, which the CFO will be able to access in real time the demand forecast to the next six weeks of any store anywhere, depending only on an internet connection and an account in the Telegram application.
+The final format will be a Telegram Bot, which the CFO will be able to access in real time the demand forecast to the next six weeks of any store anywhere, depending only on an internet connection and an account in the Telegram application.
 
 * **Granularity**: For day for store;
     
@@ -147,23 +147,22 @@ All information regarding each store is available through an API on Heroku. As a
 ---
 ## 7.0 Conclusions
 
+With the end of this project, we were able to reach our goal, which was a sales forecast for each store for the next few weeks, in order to support decision making regarding investment in stores.
+The final format was satisfactory, now the CFO will have remote and quick access to forecasts in a quick and easy way.
 
 
 
-
-
+---
 ## 8.0 Lessons Learned
+This project was extremely important for the business understanding of a company with several stores in several locations.
+Some metrics proved to be more important than others, the understanding of the functioning of each one led to a support for better communication of results.
 
 
+
+---
 ## 9.0 Next Steps
-   
-   
-   
-   
-   
-   
-   
-
-<h4 align="center"> 
-	🚧  Under construction  🚧
-</h4>
+As next steps, for greater scale and efficiency of this data:
+- Creation of a Pipeline for real-time monitoring of store data;
+- Creation of new hypotheses;
+- Test other algorithms and test new features;
+- Request more data.
